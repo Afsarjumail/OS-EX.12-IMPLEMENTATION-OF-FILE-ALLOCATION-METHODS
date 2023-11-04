@@ -28,6 +28,8 @@ x:
     count = 0;
     printf("Enter starting block and length of files: ");
     scanf("%d %d", &st, &len);
+```
+```
     for (k = st; k < (st + len); k++)
     {
         if (f[k] == 0)
@@ -93,6 +95,8 @@ x:
         printf("%d index is already allocated\n", ind);
         goto x;
     }
+```
+```
 y:
     count = 0;
     for (i = 0; i < n; i++)
@@ -180,6 +184,8 @@ void recursivePart(int pages[])
         return;
     }
 }
+```
+```
 int main() {
     int pages[50], p, a;
     for (int i = 0; i < 50; i++)
